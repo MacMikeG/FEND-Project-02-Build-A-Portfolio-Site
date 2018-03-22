@@ -1,0 +1,52 @@
+  img, embed, object, video {
+      max-width: 100%;
+  }
+
+  h1 {
+    font: small-caps 3em/0.1em Tahoma;
+    text-align: right;
+  }
+
+  h2 {
+    font: 1.5em/0.1em Tahoma;
+    text-align: right;
+  }
+
+  h3 {
+    font: 1.5em Tahoma;
+  }
+
+  h4 {
+    font: bold 1.4em/0.1em Tahoma;
+  }
+
+  a {
+    font: normal 1.2em/0.2em Tahoma;
+  }
+
+  .flex_main {
+    flex-direction: column;
+  }
+
+  .flex_image {
+    display: flex;
+    object-fit: scale-down;
+  }
+
+  .flex_logo {
+    display: flex;
+    max-height: 100px;
+    padding-left: 1%;
+  }
+
+  .title_container {
+    margin-left: inherit;
+    margin-right: inherit;
+  }
+  
+  .flex_projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }

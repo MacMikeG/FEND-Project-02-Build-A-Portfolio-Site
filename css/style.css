@@ -1,0 +1,91 @@
+  img, embed, object, video {
+      max-width: 100%;
+  }
+
+  body {
+    padding: 5%;
+    font: 1em/1em Tahoma;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font: small-caps 2em/0.1em Tahoma;
+    text-align: center;
+  }
+
+  h2 {
+    font: 1em Tahoma;
+    text-align: center;
+  }
+
+  h3 {
+    font: 1em Tahoma;
+  }
+
+  h4 {
+    font: bold 1em/0.1em Tahoma;
+  }
+
+  a {
+    font: normal 1em/0.1em Tahoma;
+  }
+
+  p {
+    font: 0.8em Tahoma;
+  }
+
+  hr {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+  }
+
+  .flex_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex_logo {
+    display: flex;
+    max-height: 75px;
+  }
+
+  .title_container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex_image {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    display: flex;
+    object-fit: scale-down;
+  }
+
+  .featured {
+    display: flex;
+    padding-left: 3%;
+    width: 100%;
+  }
+
+  .flex_projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .project {
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: center;
+  }

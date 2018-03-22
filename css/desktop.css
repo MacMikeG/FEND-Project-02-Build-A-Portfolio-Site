@@ -1,0 +1,37 @@
+  img, embed, object, video {
+      max-width: 100%;
+  }
+
+  h1 {
+    font: small-caps 5em/0.1em Tahoma;
+  }
+
+  h2 {
+    font: 2.5em/0.1em Tahoma;
+  }
+
+  h3 {
+    font: 2em Tahoma;
+  }
+
+  h4 {
+    font: bold 2em/0.8em Tahoma;
+  }
+
+  a {
+    font: normal 1.5em/0.9em Tahoma;
+  }
+
+  .flex_image {
+    display: flex;
+    object-fit: scale-down;
+  }
+
+  .flex_logo {
+    max-height: 150px;
+  }
+  
+  .flex_projects {
+    flex-direction: row;
+    justify-content: space-around;
+  }

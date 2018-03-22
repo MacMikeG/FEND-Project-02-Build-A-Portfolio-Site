@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">  <!-- by default for the mobile Nexus 5(360x640) -->
+    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="screen and (min-width: 361px)"> <!-- tablet iPad (768x1024) removed: "and (max-width: 768px) -->
+    <link href="css/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width: 769px)"> <!-- desktop (>768) -->
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="flex_header">
+      <img class="flex_logo" src="img/logo_yinyan.png" alt="Logo from YinYang symbol in a swirl.">
+      <div class="title_container">
+        <h1>Mac<strong>M</strong>ikeG</h1>
+        <h2>web dev wannabee</h2>
+      </div>
+    </header>
+
+    <main class="flex_main">
+      <article>
+        <section>
+            <hr />
+            <div class="flex_image">
+              <img src="img/small.png"
+              srcset="img/small.png 320w, img/medium.png 800w, img/large.png 1100w"
+              sizes="(min-width: 200px) 100vw, (min-width: 800px) 100vw, (min-width: 1100px) 100vw"
+              alt="Zoom on radom html code.">
+            </div>
+        </section>
+
+        <section class="flex_projects">
+          <div class="featured"><h3>Featured Work</h3></div>
+          <div class="project">
+            <img src="img/card_212x140.png"
+              srcset="img/card_212x140.png 212w, img/card_425x280.png 425w"
+              sizes="(max-width: 425px) 100vw, (min-width: 426px) 40vw"
+              alt="Animal Trading Card" />
+            <h4>Animal Trading Cards</h4>
+            <a href= "https://github.com/MacMikeG/FEND-Project-01-Animal-Trading-Cards">github.com/MacMikeG/<br />FEND-Project-<br />01-Animal-Trading-Cards</a>
+          </div>
+
+          <div class="project">
+            <img src="img/empty_212x140.png"
+              srcset="img/empty_212x140.png 212w, img/empty_425x280.png 425w"
+              sizes="(max-width: 425px) 100vw, (min-width: 426px) 40vw"
+              alt="empty" />
+            <h4>MacMikeG GitHub</h4>
+            <a href= "https://github.com/MacMikeG/">github.com/MacMikeG/</a>
+          </div>
+
+          <div class="project">
+            <img src="img/empty_212x140.png"
+              srcset="img/empty_212x140.png 212w, img/empty_425x280.png 425w"
+              sizes="(max-width: 425px) 100vw, (min-width: 426px) 40vw"
+              alt="empty" />
+            <h4>MacMikeG GitHub</h4>
+            <a href= "https://github.com/MacMikeG/">github.com/MacMikeG/</a>
+          </div>
+
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <hr />
+      <p>&copy; "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    </footer>
+  </body>
+
+</html>
